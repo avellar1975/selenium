@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Plataforma Mais Brasil</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" href="css/w3.css"> 
+	</head>
+	<body>
+		<a href="index.html"><img src="img/logo_portal.png" style="width: 20%"></a>
+		
+		<div><h2>REGISTRAR EVENTO NO SIAFI</h2></div>
+        
+		<form class="w3-container w3-card-4" method="get" action="pagina3.html">
+			<p>A prestação de contas deste instrumento foi analisada por procedimento informatizado, conforme Instrução Normativa?</p>
+          	<p>
+			<input class="w3-radio" type="radio"  id="sim" name="prestacao_contas" value="sim">
+          	<label for="sim">Sim</label></p>
+			<p>
+          	<input class="w3-radio" type="radio" name="prestacao_contas" value="nao" id="nao">
+          	<label for="nao">Não</label></p>
+      	  
+			<label class="w3-text-black">Evento</label>
+		  	<input class="w3-input w3-border" type="text" id="username" name="j_username" maxlength="14" value="">
+			
+			<label class="w3-text-black">Valor</label>
+			<input class="w3-input w3-border" type="text" id="password" name="j_password">
+			
+		  <label class="w3-text-black">Observação</label>
+		  <textarea></textarea>
+           
+		  	<button class="button button2" type="submit" name="Submit">
+				Salvar
+			</button>
+            
+			<button class="button button2" type="submit" name="Submit">
+				Voltar
+			</button>
+		 
+		</form>
+		<footer>Site criado para simulação e testes com Selenium - Evandro Avellar</footer>
+
+	</body>
+
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta Convênio</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/w3.css"> 
+  </head>
+<body>
+    <a href="index.html"><img src="img/logo_portal.png" style="width: 20%"></a>
+
+    <form class="w3-container w3-card-4" method="get" action="pagina4.html">
+    
+
+        <div class="form-group" style="margin-bottom: 10px;">
+            <label class="control-label" style="font-family: OpenSans-Light; font-size: 21px;letter-spacing: 0.08em;">
+            CONSULTA DE CONVÊNIOS</label>
+      </div>
+
+      <div class="form-group">
+        <label class="control-label">Número de Convênio</label>
+        <div class="input-group">
+          <input class="w3-input w3-border" type="text" placeholder="Digite o convênio" id="username" name="j_username" maxlength="14" value="">
+        </div>
+      </div>
+      <br>
+      <div class="form-group">
+        <label class="control-label">Órgão</label>
+        <div class="input-group">
+          <input class="w3-input w3-border" type="text" name="j_password">
+        </div>
+        
+      </div>
+      
+      <div class="form-group">
+        <label for="contas">Modalidade</label>
+        <select class="w3-select" id="contas" name="lista">
+            <option value=""></option>
+            <option value="consulta">Consultar Convênios</option>
+            <option value="historico">Histórico</option>
+            <option value="prestar_contas"><a href='pagina4.html'>Prestar Contas</a></option>
+        </select>
+
+
+      </div>
+      <br>
+      <button class="button button2" type="submit" name="Submit">
+            Consultar
+        </button>
+
+        <button class="button button2" type="submit" name="Submit">
+            Voltar
+        </button>
+     
+        </div>
+    </form>
+    <footer>Site criado para simulação e testes com Selenium - Evandro Avellar</footer>
+
+</body>
+</html>
